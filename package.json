@@ -1,5 +1,5 @@
 {
-    "name": "playestates-web-pro",
+    "name": "vite-v3-ts",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -11,6 +11,9 @@
     },
     "dependencies": {
         "@coinbase/wallet-sdk": "^3.7.2",
+        "@cosmjs/cosmwasm-stargate": "^0.32.2",
+        "@cosmjs/launchpad": "^0.27.1",
+        "@cosmjs/stargate": "^0.32.2",
         "@walletconnect/ethereum-provider": "^2.11.2",
         "ant-design-vue": "4.x",
         "axios": "^1.6.7",

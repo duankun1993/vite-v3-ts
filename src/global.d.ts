@@ -4,5 +4,6 @@ interface Number {
 
 interface Window {
     ethereum?: any;
-    process: any;
+    keplr?: any;
+    getOfflineSigner: (chainId: string) => any;
 }
